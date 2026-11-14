@@ -90,7 +90,7 @@ namespace LocalModAssistant.ViewModels
         IDialogService _dialogService;
         IMainDomain _domain;
 
-        private readonly static string HintText = "使い方\r\n1.ビーセイのインストールフォルダを指定します。\r\n2.ModsフォルダにzipのままMODを配置します。\r\n3.インストールボタンを押します。\r\n※zipの中身の構成インストールフォルダ以下をそのまま再現した形で作成してください。";
+        private readonly static string HintText = "使い方\r\n1.ビーセイのインストールフォルダを指定します。\r\n2.Modsフォルダにzip / 7zのままMODを配置します。\r\n3.インストールボタンを押します(次回のゲーム起動時に反映されます)。\r\n※アーカイブの中身はインストールフォルダ以下を再現した構成にしてください。";
         #endregion
         //ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*ﾟ+｡｡+ﾟ*｡+ﾟ ﾟ+｡*
         #region // 構築・破棄

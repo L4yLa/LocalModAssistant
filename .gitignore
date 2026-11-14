@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Local build helpers (may contain local paths)
+build.cmd
+clean.cmd
